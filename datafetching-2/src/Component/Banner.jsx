@@ -13,7 +13,7 @@ const Banner = () => {
 
     return (
         <div style={styles.container}>
-            <h1 style={styles.heading}>Banner Component</h1>
+            <h1 style={styles.heading}>Fake Api's Fake Products 🤷‍♂️</h1>
             <div style={styles.grid}>
                 {data.map((items) => (
                     <div id={items.id} style={styles.card}>
